@@ -1,0 +1,36 @@
+.jumbotron {
+    padding: 6rem;
+    background: #768d85;
+    height: 100vh;
+    position: relative;
+}
+
+.jumbotron img {
+    width: 200px;
+}
+
+.wavel {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#projects {
+    background: #768d85;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .btn-github {
+        width: 90%;
+    }
+
+    .navbar {
+        background: black !important;
+    }
+
+}
